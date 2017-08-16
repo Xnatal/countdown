@@ -34,7 +34,7 @@ body {
 }
 .timer h3 {
   width: 100%;
-  font-size: 13px;
+  font-size: 10vmax; /*13px*/
   letter-spacing: 4px;
   text-align: center;
 }
