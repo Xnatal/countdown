@@ -32,6 +32,8 @@ function initTimer (t) {
    function updateTimer() {
 
       var timestr;
+
+
       var date = new Date();
 
       date.setHours(0);
@@ -85,6 +87,9 @@ function countdownFinished() {
       TweenMax.to(timerEl, 1, { opacity: 0.2 });
       TweenMax.to(reloadBtn, 0.5, { scale: 1, opacity: 1 }); 
    }, 1000);
+ var audio = new Audio('http://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Woob-Woob-Woob&filename=mj/MjQwNjMyNDEyNDA2MTg_Y6ZNUxVi_2bh4.mp3');
+    audio.play();
+
 }
 
 reloadBtn.addEventListener('click', function () {
